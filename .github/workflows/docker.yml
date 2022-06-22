@@ -37,4 +37,5 @@ jobs:
           docker build ./c# -t aimvector/csharp:1.0.0
       - name: docker push
         run: |
+          docker tag aimvector/csharp:1.0.0 alexmandi/aimvector/csharp:1.0.0
           docker push aimvector/csharp:1.0.0
