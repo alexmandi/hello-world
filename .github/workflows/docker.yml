@@ -35,3 +35,6 @@ jobs:
       - name: Docker build C#
         run: |
           docker build ./c# -t aimvector/csharp:1.0.0
+      - name: docker push
+        run: |
+          docker push aimvector/csharp:1.0.0
