@@ -34,8 +34,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Docker build C#
         run: |
-          docker build ./c# -t aimvector/csharp:1.0.0
+          docker build ./c# -t alexmandi/csharp:1.0.0
       - name: docker push
         run: |
-          docker tag aimvector/csharp:1.0.0 alexmandi/aimvector/csharp:1.0.0
-          docker push aimvector/csharp:1.0.0
+          docker push alexmandi/csharp:1.0.0
