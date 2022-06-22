@@ -1,6 +1,6 @@
-#hello-world
+# Hello-world
 
-##hello world repository for a project
+## Hello world repository for a project
 
 
 ### **my *** fell off**
